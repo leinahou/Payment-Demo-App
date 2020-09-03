@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">POSLink Demo</string>
+    <string name="comm_type">Comm Type</string>
+    <string name="time_out">TimeOut</string>
+    <string name="dest_ip">Dest IP</string>
+    <string name="dest_port">Dest Port</string>
+    <string name="button_set">Set</string>
+    <string name="button_init">Init</string>
+    <string name="button_payment">Payment</string>
+    <string-array name="tender_type">
+        <item>CREDIT</item>
+        <item>DEBIT</item>
+        <item>EBT</item>
+        <item>GIFT</item>
+    </string-array>
+    <string-array name="trans_type">
+        <item>SALE</item>
+        <item>VOID</item>
+        <item>RETURN</item>
+        <item>AUTH</item>
+        <item>POSTAUTH</item>
+        <item>VERIFY</item>
+        <item>ADJUST</item>
+        <item>TOKENIZE</item>
+    </string-array>
+    <string-array name="comm_type">
+        <item>TCP</item>
+        <item>UART</item>
+        <item>HTTP</item>
+        <item>HTTPS</item>
+        <item>AIDL</item>
+        <item>SSL</item>
+    </string-array>
+    <string-array name="batch_type">
+        <item>BATCHCLOSE</item>
+        <item>BATCHCLEAR</item>
+        <item>DELETETRANSACTION</item>
+    </string-array>
+    <string-array name="report_type">
+        <item>LOCALTOTALREPORT</item>
+        <item>HISTORYREPORT</item>
+    </string-array>
+    <string-array name="edc_type">
+        <item>ALL</item>
+        <item>CREDIT</item>
+        <item>DEBIT</item>
+        <item>EBT</item>
+        <item>GIFT</item>
+    </string-array>
+    <string name="button_process">Start Process</string>
+    <string name="trans_amount">Amount</string>
+    <string name="button_batch">Batch</string>
+    <string name="button_report">Report</string>
+    <string name="ref_num">RefNum</string>
+    <string name="origref_num">OrigRefNum</string>
+    <string name="button_peripheries">Peripheries</string>
+    <string name="button_printbitmap">Print Bitmap</string>
+    <string name="button_printstring">Print String</string>
+    <string name="button_open">Open</string>
+    <string name="button_start">Scan</string>
+    <string name="button_close">Close</string>
+    <string name="scan_result">Scan Result</string>
+    <string name="button_sign">DoSign</string>
+    <string name="button_printsign">PrintSign</string>
+</resources>
